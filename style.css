@@ -1,0 +1,62 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 16px; /* Размер основного шрифта в <p></p>  */
+    background-color: #fef0d5; /* Цвет фона веб-страницы */
+    background-image: url(pics/360_F_556675486_jczrXcyFG6Jy4szC7EIoqCV376zZwENO.jpg);
+    background-repeat: no-repeat; 
+    background-size: 140%;
+    color: #000000; /* Цвет основного текста */ 
+}
+h1 {
+    color: #000000; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Proxima Nova, extrabold; /* Семейство шрифтов */
+    animation: color-change2 10s infinite;
+}
+
+h2 {
+    color: #000000; /* Цвет заголовка */
+    font-size: 22px; /* Размер шрифта в пунктах */
+    font-family: Proxima Nova, extrabold; /* Семейство шрифтов */
+    animation: color-change 10s infinite;
+}
+
+p {
+    color: #000000; /* Цвет заголовка */
+    font-size: 18px; /* Размер шрифта в пунктах */
+    font-family: Proxima Nova, bold; /* Семейство шрифтов */
+}
+
+li {
+    color: #000000; /* Цвет заголовка */
+    font-size: 18px; /* Размер шрифта в пунктах */
+    font-family: Proxima Nova, bold; /* Семейство шрифтов */
+}
+
+@keyframes color-change {
+    0% {
+      color: #141414;
+    }
+
+    50% {
+      color: #000000;
+    } 
+
+    100% {
+      color: #141414;
+    }
+}
+
+@keyframes color-change2 {
+  0% {
+    color: #141414;
+  }
+
+  50% {
+    color: #000000;
+  } 
+
+  100% {
+    color: #141414;
+  }
+}
