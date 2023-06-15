@@ -18,7 +18,7 @@ h2 {
     color: #000000; /* Цвет заголовка */
     font-size: 22px; /* Размер шрифта в пунктах */
     font-family: Proxima Nova, extrabold; /* Семейство шрифтов */
-    animation: color-change 10s infinite;
+    animation: color-change 5s infinite;
 }
 
 p {
@@ -39,7 +39,7 @@ li {
     }
 
     50% {
-      color: #000000;
+      color: #353535;
     } 
 
     100% {
@@ -53,7 +53,7 @@ li {
   }
 
   50% {
-    color: #000000;
+    color: #313131;
   } 
 
   100% {
